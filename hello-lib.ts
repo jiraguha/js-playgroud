@@ -1,5 +1,5 @@
 export function hello(name: string){
-    if(name == null){
+    if(name != null){
       console.log(`Hello dear ${name}`)
     }
     else{
